@@ -18,7 +18,7 @@ extern void demo_main(void);
 void start_kernel(void)
 {
 	uart_init();
-	uart_puts("Hello, RVOS!\n");
+	uart_puts("Hello, ThreadX!\n");
 	
 	plic_init();
 
